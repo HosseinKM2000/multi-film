@@ -1,0 +1,26 @@
+.search-box
+{
+    width: 100%;
+    background-color: #222222;
+    display: flex;
+    justify-content: flex-start;
+}
+.search-box > div
+{
+    padding:1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.8rem;
+}
+.search-box > div > input
+{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 1.1rem;
+    color: #fff;
+    font-weight: 400;
+    border-bottom: solid 1px rgba(255, 255, 255, 0.193);
+    width: 30rem;
+}

@@ -1,0 +1,83 @@
+.categories
+{
+    width: 100%;
+    background: #181818;
+    display: flex;
+    justify-content: space-around;
+    padding:  2rem 0;
+    border-bottom: solid 2px #fff;
+    align-items: center;
+}
+/* .drop-list
+{
+    display: none;
+} */
+.categories > div
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+    color: #fff;
+}
+.categories > div > div > button
+{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: #fff;
+    font-size: 1rem;
+    font-family: aria;
+}
+.categories > div > div
+{
+    background-color: #343A40;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+}
+.drop-list
+{
+    max-height: 6rem;
+    background-color: #686D76;
+    height: 100%;
+    display: flex;
+    padding: 0.5rem;
+    visibility: hidden;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: flex-start;
+    overflow-y: scroll;
+    border: none;
+    position: absolute;
+    top: 41rem;
+}
+.drop-list::-webkit-scrollbar
+{
+  background-color: transparent;
+  width: 2px;
+}
+.drop-list::-webkit-scrollbar-track
+{
+    border-radius: 50px;
+}
+.drop-list::-webkit-scrollbar-thumb
+{
+    background-color: rgb(255, 255, 255);
+    border-radius:50px ;
+}
+.categorie >  button:focus + .drop-list
+{
+    visibility: visible;
+}
+.drop-list:hover 
+{
+    visibility: visible;
+}
+img[alt='refresh']
+{
+    height: 1.5rem;
+    transition: all 2s ease-in-out;
+}

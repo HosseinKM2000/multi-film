@@ -1,0 +1,17 @@
+.menu
+{
+    gap: 4rem;
+    display: flex;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+li
+{
+    list-style: none;
+    cursor: pointer;
+    color: #fff;
+}
+li:hover
+{
+   color: red;
+}

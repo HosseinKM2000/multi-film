@@ -1,0 +1,109 @@
+.content
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: #222222;
+    padding: 2rem 0 1rem;
+    gap: 1rem;
+}
+.movies
+{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.movie
+{
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    margin-bottom: 4rem;
+}
+.movie > img
+{
+    height: 20rem;
+}
+.movie > div
+{
+    text-align: end;
+}
+.movie > div > h5
+{
+    margin: 1rem 0.5rem;
+    letter-spacing: 0.07rem;
+}
+.movie > div > div > div
+{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 0.1rem;
+    align-items: baseline;
+    justify-content: flex-start;
+}
+.movie > div > div > div > div
+{
+    width: 0.7rem;
+    height: 0.7rem;
+    background-color: red;
+    border-radius: 60px;
+    margin-left: 1rem;
+}
+.movie > div > div 
+{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+}
+.movie > div > div > button
+{
+    border: none;
+    background: white;
+    color: rgb(103, 103, 103);
+    font-family: aria;
+    font-weight: 900;
+    padding: 0.3rem 0.5rem;
+    border-radius: 2px;
+}
+.movie > div > div > button:hover
+{
+    box-shadow: 0px 0px 7px 1px black;
+    color: #7f0000;
+}
+.content > div:nth-of-type(2)
+{
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+}
+.content > div:nth-of-type(2) > button
+{
+    font-family: aria;
+    background: red;
+    border: navajowhite;
+    outline: navajowhite;
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+}
+.content > div:nth-of-type(2) > button:hover
+{
+    background: rgb(195, 0, 0);
+}
+.content > div:nth-of-type(2)  > img
+{
+    width: 3rem;
+}
+.alert
+{
+    width : 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 1.5rem;
+}

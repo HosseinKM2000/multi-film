@@ -1,38 +1,43 @@
-.App {
-  text-align: center;
+@font-face {
+    font-family: dibaj-m;
+    src: url(./assets/font/Dibaj/dibaj-Family/Dibaj-ttf/Dibaj\ Medium.ttf);
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+    font-family: javan;
+    src: url(./assets/font/javan.ttf);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@font-face {
+    font-family: aria;
+    src: url(./assets/font/آریا/Aria-Medium.ttf);
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+body 
+{
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
 }
-
-.App-link {
-  color: #61dafb;
+.App
+{
+    background:url(./assets/image/magicpattern-svg-chart-1674986512093.jpeg) ;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: right;
+    direction: rtl;
+    font-family: aria;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container
+{
+    width: 90%;
+    margin: 2rem 0px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    overflow: hidden;
+    box-shadow: 0px 0px 20px 5px
 }
